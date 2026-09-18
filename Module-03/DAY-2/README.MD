@@ -22,8 +22,14 @@ To develop a java program use replace() method replaces the given String from th
 Program to implement a String Buffer using Java
 Developed by: Latchaya priyan S
 RegisterNumber: 212224230139
-}  
-}  
+import java.util.*;
+public class StringBufferExample3{  
+    public static void main(String args[]){ 
+        Scanner sc=new Scanner(System.in);
+        String str1=sc.nextLine();
+        StringBuffer sb=new StringBuffer(str1);  
+        sb.replace(1,3,"Java");  
+        System.out.println(sb); 
 ```
 
 ## OUTPUT:
@@ -33,23 +39,6 @@ RegisterNumber: 212224230139
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
 
-RegisterNumber: 212222100050
-*/
-```
-
-## Sourcecode.java:
-```
-import java.util.*;
-public class StringBufferExample3{  
-    public static void main(String args[]){ 
-        Scanner sc=new Scanner(System.in);
-        String str1=sc.nextLine();
-        StringBuffer sb=new StringBuffer(str1);  
-        sb.replace(1,3,"Java");  
-        System.out.println(sb); 
-}  
-}  
-```
 
 ## OUTPUT:
 
